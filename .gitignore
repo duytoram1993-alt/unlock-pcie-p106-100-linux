@@ -1,0 +1,19 @@
+# Kernel module build artifacts
+kmod/*.o
+kmod/*.ko
+kmod/*.mod
+kmod/*.mod.c
+kmod/*.mod.o
+kmod/Module.symvers
+kmod/modules.order
+kmod/.*.cmd
+kmod/.tmp_versions/
+kmod/.Module.symvers.cmd
+kmod/.modules.order.cmd
+
+# Python / OS artifacts
+__pycache__/
+*.py[cod]
+*.orig
+*.bak
+.DS_Store
